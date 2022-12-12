@@ -22,8 +22,17 @@
   overflow: hidden;
 }
 
+.portfolio__item-img i {
+  font-size: 0.6rem
+}
+
 .portfolio__item-img h3 {
-  padding: 1rem 0;
+  padding-top: 1rem;
+}
+
+.portfolio__item-img p {
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 .portfolio__item-img a:nth-last-child(1) {

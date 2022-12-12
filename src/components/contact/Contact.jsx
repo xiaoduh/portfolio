@@ -15,7 +15,7 @@ const Contact = () => {
     
         emailjs
       .sendForm(
-        "service_wzwertf",
+        "service_pldulza",
         "template_p6waqzi",
         form.current,
         'L5n2ElM8iKvEQ3oim'
@@ -68,7 +68,7 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='nom' placeholder='Nom' required />
                     <input type="email" name='email' placeholder='john.duff@email.com' required />
-                    <textarea name="Message" rows="10" placeholder='Message' required></textarea>
+                    <textarea name="message" rows="10" placeholder='Message' required></textarea>
                     <div className='output-message'>
                         <button type='submit' className='btn btn-primary'>Envoyer</button>
                         <div id='output-mess'></div>

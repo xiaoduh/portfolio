@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import {AiOutlineSmile} from 'react-icons/ai'
-import ME from '../../assets/img/me-about.jpg'
+import ME from '../../assets/img/mega-creator.png'
 import {IoIosCodeWorking} from 'react-icons/io'
 import {AiTwotoneExperiment} from 'react-icons/ai'
 import {BiEuro} from 'react-icons/bi'
