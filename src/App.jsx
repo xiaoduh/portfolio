@@ -1,3 +1,4 @@
+import ReactGA from 'react-ga';
 import React from "react";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
@@ -8,6 +9,8 @@ import Footer from "./components/footer/Footer";
 
 
 const App = () => {
+  const TRACKING_ID = "UA-251871221-1";
+  ReactGA.initialize(TRACKING_ID);
   return (
     <div>
       <Header />

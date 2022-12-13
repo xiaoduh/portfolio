@@ -89,6 +89,13 @@ const Skill = () => {
                         <small className='experience__small'>Intermediaire</small>
                     </div>
                 </article>
+                                <article className='experience__detail'>
+                    <BsPatchCheckFill className='experience__icon'/>
+                    <div>
+                        <h4>Google Analytics</h4>
+                        <small className='experience__small'>Confirmé</small>
+                    </div>
+                </article>
             </div>
         </div>
 
@@ -156,6 +163,13 @@ const Skill = () => {
                     <div>
                         <h4>SEA</h4>
                         <small className='experience__small'>Débutant</small>
+                    </div>
+                </article>
+                <article className='experience__detail'>
+                    <BsPatchCheckFill className='experience__icon'/>
+                    <div>
+                        <h4>Google Analytics</h4>
+                        <small className='experience__small'>Confirmé</small>
                     </div>
                 </article>
             </div>
